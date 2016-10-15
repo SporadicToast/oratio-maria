@@ -1,0 +1,364 @@
+/* Note these important colors */
+/* #dc8126 - Dark Orange (Menu Color)*/
+/* #ffa500 - Lighter Orange (Selection Color)*/
+/* #E6A45A - Lighter Lighter Orange */
+body {background: url(background.jpg) no-repeat 
+		center center fixed; 
+background-size: cover;}
+/*Bordertype default*/
+.btypei {border-style: inset; 
+		border-width: 3px;
+		border-color: gray;
+		}			
+/*Unused Text Type*/		
+.ttexti {font-family: Arial;
+		font-size: 12px;
+		text-align: justify;
+		margin-left: 20px;
+		margin-right: 20px;
+		}	
+.ttextii {font-family: Arial;
+		font-size: 15px;
+		margin-left: 20px;
+		margin-right: 10px;
+		text-indent: 20px;
+		}
+.ttextiii {font-family: Calibri;
+		color: white;
+		font-size: 17px;
+		margin-left: 20px;
+		margin-right: 20px;
+		}
+.ttextix {font-family: Arial;
+		font-size: 15px;
+		margin-left: 10px;
+		margin-right: 20px;
+		text-indent: 30px;
+		}
+.ttextx {font-family: Calibri;
+		margin-left: 10px;
+		margin-right: 10px;
+		text-indent: 20px;
+		font-size: 15px;
+		text-align: justify;}
+.ttextxi {font-family: Arial;
+		font-size: 12px;
+		text-align: center;
+		}			
+a.empi {font-weight: bold;
+		color: red;
+		}
+a.title {font-family: Arial;
+		font-size: 20px;
+		font-weight: bold;
+		}		
+a.num {font-family: "Times New Roman";
+		font-size: 40px;}
+img.mainimage {position: absolute;
+				left: 155px;
+				top: 15px;}
+img.scrollingbar {position: fixed;
+				top: 30%;
+				border-style: solid;
+				border-width: 3px;
+				width: 140px;
+				height: 240px;
+				border-radius: 10px 10px 10px 10px;
+				visibility: visible;
+			}
+img.scrollingbarii {position: fixed;
+				top: 27%;
+				border-style: solid;
+				border-width: 3px;
+				width: 140px;
+				height: 360px;
+				border-radius: 10px 10px 10px 10px;
+				visibility: visible;
+			}		
+.checklist {position: fixed;
+			top: 85%;
+			width: 140px;
+			height: 60px;
+			border-radius: 10px 10px 10px 10px;
+			visibility: visible;}					
+a.selectorlink:link {opacity:.4;
+			-webkit-transition: all .8s ease-in-out;
+			transition: all .8s ease-in-out;}
+a.selectorlink:hover {opacity: 1;}
+a.selectorlinki:link {opacity: .95;}
+a.selectorlinki:hover {opacity: 1;}
+table.t {position: relative;
+		left: 155px;
+		}	
+as.returntop {text-align: center;}	
+hr.i {position: relative;
+	margin-left: 0%;
+	left: 155px;}	
+.ptitle {font-family: Arial;
+		font-weight: bold;
+		text-decoration: underline;
+		margin-left:20px;
+		text-indent: 20px;
+		font-size: 15px;
+		color: #8C2212;}
+.ptitlesec {font-family: Arial;
+		font-weight: bold;
+		text-decoration: underline;
+		margin-left:20px;
+		text-indent: 20px;
+		font-size: 15px;
+		color: yellow;}		
+.text {vertical-align: top;
+		align: left;
+		}
+table.set {position: absolute;}
+.top {border-radius: 20px 20px 0px 0px;}
+.bottom {border-radius: 0px 0px 20px 20px;}		
+.all {border-radius: 20px 20px 20px 20px;}
+.i {font-style: italic;}
+.lowbar {font-family: Helvetica;
+		font-size: 12px;}
+.lowbar a:link {color: black;
+				text-decoration: none;}
+.lowbar a:visited {color: black;
+				text-decoration: none;}
+.lowbar a:hover {color: yellow;
+				text-decoration: underline;}
+
+a.mtitle {font-family: Arial;
+		font-size: 19px;
+		text-decoration: underline;
+		font-weight: bold;}
+a.msub {font-family: Calibri;
+		font-size: 15px;
+		}	
+ol.prayerlist {list-style-type: none;
+			padding-left: 20px;
+			color: white;}
+ol.prayerlist li {
+  position: relative;
+  font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+ol.prayerlist li p {
+  font: 12px/1.5 Helvetica, sans-serif;
+  padding-left: 60px;
+  color: black;
+  text-align: justify;
+  padding-left: 70px;
+  padding-right: 20px;
+  padding-top: 10px;
+  font-size: 15px;
+}  
+td.footer {padding-left:0px;
+		text-align:center;
+		color:white;
+		width:1025px;
+		height:50px;
+		opacity: .5;			
+		-webkit-transition: all .6s ease-in-out;
+		transition: all .6s ease-in-out;
+		
+}
+td.footer a:visited {color:white;}
+td.footer:hover {opacity: 1;
+}
+p.footer {font-family: Calibri;
+		font-size: 15px;}
+ol.prayerlist li span {
+  position: absolute;
+  color: white;
+}
+td a.bottom:link {color: white;
+				text-decoration:none}
+td a.bottom:visited {color: white;
+				text-decoration:none}		
+td a.bottom:hover {color: yellow;
+				text-decoration: underline;}
+a.subtext {font-family:Calibri;
+			font-size: 13px;
+			color: white;
+			}				
+a.subtext ol {padding-left: 20px;
+			padding-right: 10px;
+			
+}		
+.subbar {padding-top:10px;
+		padding-bottom:10px;
+}
+#cssmenu ul,
+#cssmenu li,
+#cssmenu span,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#cssmenu {
+	position: absolute;
+	left: 160px;
+	top: 118px;
+  line-height: 0;
+  border-radius: 20px 20px 0 0;
+  -moz-border-radius: 20px 20px 0 0;
+  -webkit-border-radius: 20px 20px 0 0;
+  background: #DC8126;
+  border-bottom: 4px solid #ffa500;
+  width: 1025px;
+}
+#cssmenu:after,
+#cssmenu ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#cssmenu a {
+  background: #DC8126;
+  color: #ffffff;
+  display: block;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  padding: 19px 20px;
+  text-decoration: none;
+  			-webkit-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+}
+#cssmenu ul {
+  list-style: none;
+}
+#cssmenu > ul > li {
+  display: inline-block;
+  float: left;
+  margin: 0;
+}
+#cssmenu.align-center {
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  float: none;
+  
+}
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+#cssmenu.align-right > ul {
+  float: right;
+}
+#cssmenu.align-right ul ul {
+  text-align: right;
+}
+#cssmenu > ul > li > a {
+  color: black;
+  font-size: 14px;
+}
+#cssmenu > ul > li:hover:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #ffa500;
+  margin-left: -10px
+  
+}
+#cssmenu > ul > li:first-child > a {
+  border-radius: 20px 0 0 0;
+  -moz-border-radius: 20px 0 0 0;
+  -webkit-border-radius: 20px 0 0 0;
+  			-webkit-transition: all .6s ease-in-out;
+			transition: all .6s ease-in-out;
+}
+#cssmenu.align-right > ul > li:first-child > a,
+#cssmenu.align-center > ul > li:first-child > a {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+}
+#cssmenu.align-right > ul > li:last-child > a {
+  border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
+}
+#cssmenu > ul > li {
+	
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li:hover > a {
+  color: #000000;
+  box-shadow: inset 0 0 3px #d9d9d9;
+  -moz-box-shadow: inset 0 0 3px #d9d9d9;
+  -webkit-box-shadow: inset 0 0 3px #d9d9d9;
+  background: #f4d9bd;  
+}
+#cssmenu .has-sub {
+  z-index: 1;
+}
+#cssmenu .has-sub:hover > ul {
+  display: block;
+}
+#cssmenu .has-sub ul {
+  display: none;
+  position: absolute;
+  width: 200px;
+  top: 100%;
+  left: 0;
+}
+#cssmenu.align-right .has-sub ul {
+  left: auto;
+  right: 0;
+}
+#cssmenu .has-sub ul li {
+  *margin-bottom: -1px;
+  
+}
+#cssmenu .has-sub ul li a {
+  background: #DC8126;
+  border-bottom: 2px dotted white;
+  font-size: 11px;
+  filter: none;
+  display: block;
+  line-height: 120%;
+  padding: 10px;
+  color: #ffffff;
+}
+#cssmenu .has-sub ul li:hover a {
+  background: #ffa500;
+}
+#cssmenu ul ul li:hover > a {
+  color: black;
+}
+#cssmenu .has-sub .has-sub:hover > ul {
+  display: block;
+}
+#cssmenu .has-sub .has-sub ul {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+#cssmenu.align-right .has-sub .has-sub ul,
+#cssmenu.align-right ul ul ul {
+  left: auto;
+  right: 100%;
+}
+#cssmenu .has-sub .has-sub ul li a {
+  background: #a80008;
+  border-bottom: 1px dotted #ff0f1b;
+}
+#cssmenu .has-sub .has-sub ul li a:hover {
+  background: white;
+}
+#cssmenu ul ul li.last > a,
+#cssmenu ul ul li:last-child > a,
+#cssmenu ul ul ul li.last > a,
+#cssmenu ul ul ul li:last-child > a,
+#cssmenu .has-sub ul li:last-child > a,
+#cssmenu .has-sub ul li.last > a {
+  border-bottom: 0
+  
+}
+
+	
